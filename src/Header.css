@@ -1,0 +1,185 @@
+/* Estilos para el header y el menú desplegable */
+.header {
+  background-color: red;
+  color: white;
+  padding: 10px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo-div {
+  height: 100px;
+  font-size: 24px;
+  font-weight: bold;
+  background: red;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  text-align: center;
+  width: 100%;
+  font-family: "Amatic SC", cursive;
+}
+.logo-img {
+  width: 100px;
+  border: 2px solid #fff;
+}
+@keyframes animateLetter {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  25%,
+  75% {
+    transform: translateY(-20px);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(20px);
+    opacity: 1;
+  }
+}
+
+.titulo-sentidos {
+  width: 100%;
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 1%;
+}
+
+.titulo-sentidos span {
+
+  display: inline-block;
+  animation: animateLetter 1.5s ease-in-out;
+}
+.titulo-sentidos span:nth-child(1) {
+  color: indigo;
+}
+.titulo-sentidos span:nth-child(2) {
+  color: orange;
+}
+.titulo-sentidos span:nth-child(3) {
+  color: yellow;
+}
+.titulo-sentidos span:nth-child(4) {
+  color: green;
+}
+.titulo-sentidos span:nth-child(5) {
+  color: blue;
+}
+.titulo-sentidos span:nth-child(6) {
+  color: indigo;
+}
+.titulo-sentidos span:nth-child(7) {
+  color: violet;
+}
+.titulo-sentidos span:nth-child(8) {
+  color: purple;
+}
+
+.titulo-sentidos span:nth-child(9) {
+  color: pink;
+}
+.titulo-sentidos span:nth-child(10) {
+  color: white;
+}
+.titulo-sentidos span:nth-child(11) {
+  color: transparent;
+}
+.titulo-sentidos span:nth-child(12) {
+  color: orange;
+}
+.titulo-sentidos span:nth-child(13) {
+  color: yellow;
+}
+.titulo-sentidos span:nth-child(14) {
+  color: green;
+}
+.titulo-sentidos span:nth-child(15) {
+  color: blue;
+}
+.titulo-sentidos span:nth-child(16) {
+  color: indigo;
+}
+.titulo-sentidos span:nth-child(17) {
+  color: violet;
+}
+.titulo-sentidos span:nth-child(18) {
+  color: purple;
+}
+.titulo-sentidos span:nth-child(19) {
+  color: pink;
+}
+.titulo-sentidos span:nth-child(20) {
+  color: white;
+}
+
+.menu-icon {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 60px;
+  background-color: rgba(0, 0, 0, 0.7);
+  transform: translateY(-100%);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  width: 90%;
+  /* margin-left:10%; */
+  justify-content: space-around;
+}
+
+.menu.open {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.menu li {
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+}
+.menu li:hover {
+  background: #334 !important;
+}
+
+.menu li a {
+  color: #fff;
+  font-weight: bold;
+  width: 100%;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+  color: #fff;
+  background: #334;
+}
+
+/* Estilos para el botón de cerrar en el menú desplegable */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+}

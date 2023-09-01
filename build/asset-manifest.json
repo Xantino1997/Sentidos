@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7420babd.css",
+    "main.js": "/static/js/main.9f37b98d.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/mujerProfe2.png": "/static/media/mujerProfe2.e5522227663af08304da.png",
+    "static/media/profeIdioma.png": "/static/media/profeIdioma.cabc383014e941182ae6.png",
+    "static/media/profeBajo.png": "/static/media/profeBajo.6a6f108ae0a7ff3eb612.png",
+    "static/media/profeHombre2.png": "/static/media/profeHombre2.11f6a79344363e67d362.png",
+    "static/media/profeMusica.png": "/static/media/profeMusica.6ec48b4ef1e5a7e0b6cc.png",
+    "static/media/profeInformatica.png": "/static/media/profeInformatica.c712c07b2775f4fa05fe.png",
+    "static/media/sentidos.png": "/static/media/sentidos.4ae5eecc52e7921a45fe.png",
+    "static/media/carrousel3.png": "/static/media/carrousel3.55a872c8667ec0edeb8e.png",
+    "static/media/carrousel2.png": "/static/media/carrousel2.8e2d3640f476114441b1.png",
+    "static/media/carrousel1.png": "/static/media/carrousel1.bef6919d87bdf2db94c7.png",
+    "static/media/familia4.png": "/static/media/familia4.43a5798221b65556884e.png",
+    "static/media/familia6.png": "/static/media/familia6.d2fb3e31b1477c3dc8d2.png",
+    "static/media/familia3.png": "/static/media/familia3.84a4a623fd78cca3dba5.png",
+    "static/media/familia1.png": "/static/media/familia1.b5f88480cf79af9d8783.png",
+    "static/media/familia2.png": "/static/media/familia2.7a70c4736b609917398a.png",
+    "index.html": "/index.html",
+    "main.7420babd.css.map": "/static/css/main.7420babd.css.map",
+    "main.9f37b98d.js.map": "/static/js/main.9f37b98d.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7420babd.css",
+    "static/js/main.9f37b98d.js"
+  ]
+}
